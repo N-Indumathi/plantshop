@@ -1,0 +1,119 @@
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(173, 230, 28);
+    color:black;
+    font-weight: bolder;
+    position: sticky;
+    top:0px;
+}
+.navbar h1{
+      font-size: 40px;
+}
+
+.lists,ul,li{
+    display: inline-block;
+    padding: 6px;
+    
+}
+.searchbar,input{
+    outline:none;
+    padding:10px;
+    border-radius: 5px;
+}
+#btn{
+    border-radius: 3px;
+    padding:8px;
+    background-color:rgb(201, 133, 116);
+    font-size:13px;
+    font-weight: bolder;
+}
+
+#btn:hover{
+   cursor: pointer;
+   scale: 1.2;
+   transition-duration: 2s;
+}
+
+/* <-----------------search section---------------------> */
+.search{
+    margin-top: 60px;
+}
+.search_1{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#search_1{
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+#search_1:hover{
+    cursor:pointer;
+   
+}
+
+
+
+
+/* <-----------------product section---------------------> */
+.products{
+    margin-top: 150px;
+}
+.products,h1{
+    text-align: center;
+}
+#floweringplants{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.floweringplants,p{
+    text-align: center;
+}
+#nonfloweringplants{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nonfloweringplants,p{
+    text-align: center;
+}
+#decoratingplants{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.decoratingplants,p{
+    text-align: center;
+}
+#fruitingplants{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.fruitingplants,p{
+    text-align: center;
+}
+
+/* <-----------------footer section---------------------> */
+.footer{
+    background-color: black;
+    color:white;
+}
